@@ -1,10 +1,10 @@
 {
-  "name": "2_header_hero_card",
+  "name": "1_intro",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind":"npx tailwindcss -i ./static/src/input.css -o ./static/css/style.css --watch"
+    "tailwind" : "npx tailwindcss -i ./static/src/input.css -o ./static/css/style.css --watch"
   },
   "keywords": [],
   "author": "",

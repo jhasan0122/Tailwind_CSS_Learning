@@ -1,16 +1,16 @@
 {
-  "name": "3_Pseudo-classes_Forms_Footers",
+  "name": "3_pseudo-classes_forms_footers",
   "version": "1.0.0",
-  "main": "tailwind.config.js",
+  "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch", 
-    "prettier": "npx prettier --write **/*.html"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind":"npx tailwindcss -i ./static/src/input.css -o ./static/css/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.6.6"
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
   }
 }
